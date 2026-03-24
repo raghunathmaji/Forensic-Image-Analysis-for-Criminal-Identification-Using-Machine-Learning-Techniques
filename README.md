@@ -1,17 +1,22 @@
 Facial Recognition with SVM, Random Forest, and CNN
+
 This project demonstrates a facial recognition task using the Labeled Faces in the Wild (LFW) dataset. It implements and compares three different machine learning models: Support Vector Machine (SVM), Random Forest, and a Convolutional Neural Network (CNN) to classify individuals based on their facial features.
 
 Project Overview
+
 The goal of this project is to showcase the application of various machine learning algorithms for multi-class facial classification. The LFW dataset, a public benchmark for facial recognition, is used to train and evaluate the models. The project includes data loading, preprocessing, model training, and a comprehensive evaluation of each model's performance using accuracy, confusion matrices, and Receiver Operating Characteristic (ROC) curves.
 
 Features
+
 Dataset Loading & Preprocessing: Loads the LFW dataset, normalizes features using MinMaxScaler, and encodes labels.
 Data Splitting: Divides the dataset into training and testing sets with stratification to maintain class distribution.
 Model Implementations:
+
 Support Vector Machine (SVM): Trained with a radial basis function (RBF) kernel and StandardScaler in a pipeline.
 Random Forest Classifier: An ensemble learning method.
 Convolutional Neural Network (CNN): A deep learning model designed for image classification, built with tensorflow.keras.
 Model Evaluation:
+
 Calculates and displays classification accuracy for each model.
 Generates and visualizes Confusion Matrices to show per-class performance.
 Plots multi-class ROC curves with AUC scores for each class to assess model discriminative power.
